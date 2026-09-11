@@ -508,6 +508,18 @@
     <select id="eventCategory">
       <option value="Birthday" selected>Birthday</option>
       <option value="Baby Shower">Baby Shower</option>
+      <option value="Wedding">Wedding</option>
+       <option value="Reception">Reception</option>
+           <option value="Wedding Reception">Wedding Reception</option>
+        <option value="Puberty">Puberty</option>
+                <option value="Naming ceremony ">Naming ceremony </option>
+
+
+        
+                    
+
+        
+
       <option value="Surprise">Surprise</option>
     </select>
 
@@ -526,7 +538,7 @@
     <input id="totalAmount" type="number" placeholder="Enter total amount" value="" min="0" step="0.01" required>
     <div class="field-error" id="totalAmountError">Please enter the total amount.</div>
 
-    <label for="paidAmount">Amount paid (₹)</label>
+    <label for="paidAmount">Advance paid (₹)</label>
     <input id="paidAmount" type="number" placeholder="0.00" value="" min="0" step="0.01">
     <p class="hint">Balance is calculated automatically as Total − Paid.</p>
 
@@ -616,7 +628,7 @@
 
     <div class="totals">
       <div class="line"><span>Total Amount</span><span id="outTotal">₹0.00</span></div>
-      <div class="line"><span>Amount Paid</span><span id="outPaid">₹0.00</span></div>
+      <div class="line"><span>Advance Paid</span><span id="outPaid">₹0.00</span></div>
       <div class="line balance" id="balanceLine">
         <span>Balance Due</span>
         <span class="amt" id="outBalance">₹0.00</span>
